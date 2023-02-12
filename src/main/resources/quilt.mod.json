@@ -1,25 +1,25 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "org.siscode",
+		"id": "soberana",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "SoberanaMod",
+			"description": "Mod para as demandas do soberanacraft.",
 			"contributors": {
-				"Your name here": "Owner"
+				"roridev": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://github.com/SoberanaCraft/soberana-mod",
+				"issues": "https://github.com/SoberanaCraft/soberana-mod/issues",
+				"sources": "https://github.com/SoberanaCraft/soberana-mod"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/soberana/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "org.siscode.soberana.Soberana"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "soberana.mixins.json"
 }
